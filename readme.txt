@@ -5,7 +5,7 @@ simtria -- generate uniform simple triangulations
 * 
 
 This project implements a random generator for uniform simple triangulations of the 2-sphere with a given number of triangles. It is based on the bijection between simple triangulations and blossoming trees by Poulalhon and Schaeffer (2006, Algorithmica), and a generating procedure for random blossoming trees by Addario-Berry and Albenque (2017, The Annals of Probability).
- 
+
 
 *
 * 2. Usage
@@ -39,10 +39,12 @@ for any corresponding short options.
 Report bugs to <benedikt.stufler@posteo.net>.
 
 
+Each generated map is represented by a list of half edge data structures in the format {next, previous, opposite}. The total output is a list of lists, each element corresponding to a map.
+
 
 *
-* 3. Examples
+* 3. Example
 *
+simtria -s 10
+{{{30,28,2},{3,4,1},{4,2,8},{2,3,5},{6,10,4},{10,5,7},{8,6,6},{9,7,3},{7,8,26},{5,6,11},{12,13,10},{13,11,23},{11,12,14},{15,16,13},{16,14,20},{14,15,17},{18,29,16},{29,17,19},{20,21,18},{21,19,15},{19,20,22},{23,24,21},{24,22,12},{22,23,25},{26,27,24},{27,25,9},{25,26,28},{1,30,27},{17,18,30},{28,1,29}}}
 
-
-simtria -s 100
