@@ -50,7 +50,7 @@ simtria -s 10
 
 
 *
-* 4. Licence
+* 4. License
 *
 
 Copyright (C) 2021 Benedikt Stufler
