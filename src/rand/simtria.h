@@ -225,7 +225,7 @@ void closure(struct hedge *ex, struct hedge *x, struct hedge *y, int swi) {
 				// perform a local closure
 				tmp = cur->ne->ne->ne->ne;
 				cur->ne->ne->ne->ne = cur->ne;
-				cur->ne->pr = cur->ne->ne->ne->ne;
+				cur->ne->pr = cur->ne->ne->ne;
 				cur->ne = tmp;
 				tmp->pr = cur;
 

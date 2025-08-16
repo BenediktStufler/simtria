@@ -26,7 +26,7 @@ simtria -- generate uniform simple triangulations
   -S, --seed=SEED            Specify the seed of the random generator in the
                              first thread. Thread number k will receive SEED +
                              k - 1 as seed. The default is to set SEED to the
-                             systems timestamp (in seconds).
+                             system's timestamp (in seconds).
   -t, --threads=THREADS      Distribute the workload on THREADS many threads.
                              The default value is the number of CPU cores.
   -?, --help                 Give this help list
@@ -45,8 +45,8 @@ Each generated map is represented by a list of half edge data structures in the 
 *
 * 3. Example
 *
-simtria -s 10
-{{{5,28,2},{3,2,1},{4,2,26},{2,3,21},{28,1,16},{23,24,11},{18,19,8},{9,30,7},{30,8,10},{11,12,9},{12,10,6},{10,11,13},{14,29,12},{29,13,15},{16,17,14},{17,15,5},{15,16,18},{19,7,17},{7,18,20},{21,20,19},{22,20,4},{20,21,23},{24,23,22},{6,23,25},{26,25,24},{27,25,3},{25,26,28},{1,28,27},{13,14,30},{8,9,29}}}
+simtria -s 8
+{{{2,22,18},{22,1,13},{20,21,4},{5,6,3},{6,4,10},{4,5,7},{8,24,6},{24,7,9},{10,11,8},{11,9,5},{9,10,12},{13,14,11},{14,12,2},{12,13,15},{16,23,14},{23,15,17},{18,19,16},{19,17,1},{17,18,20},{21,3,19},{3,20,22},{1,2,21},{15,16,24},{7,8,23}}}
 
 
 *

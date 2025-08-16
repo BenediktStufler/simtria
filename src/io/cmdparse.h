@@ -88,7 +88,7 @@ static struct argp_option options[] =
 	{"num", 		'N', "NUM", 0, 		"Simulate NUM many samples."},
 	{"threads", 	't', "THREADS", 0,	"Distribute the workload on THREADS many threads. The default value is the number of CPU cores."}, 
 	{"randgen",  	'r', "RANDGEN", 0, 	"Use the pseudo random generator RANDGEN. Available options are taus2, gfsr4, mt19937, ranlux, ranlxs0, ranlxs1, ranlxs2, ranlxd1, ranlxd2, mrg, cmrg, ranlux389. The default is taus2."},
-	{"seed", 		'S', "SEED", 0, "Specify the seed of the random generator in the first thread. Thread number k will receive SEED + k - 1 as seed. The default is to set SEED to the systems timestamp (in seconds)."},
+	{"seed", 		'S', "SEED", 0, "Specify the seed of the random generator in the first thread. Thread number k will receive SEED + k - 1 as seed. The default is to set SEED to the system's timestamp (in seconds)."},
 	{0}
 };
 
