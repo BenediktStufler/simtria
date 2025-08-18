@@ -46,7 +46,6 @@
 
 /*
  * define data types and format strings for floats and large integers
- * keep in mind that the data type int may occupy only 32bit on 64bit machines
  *
  * DOUBLE: the data type used for storing probabilities
  * PREC: precision (in number of bits) used for intermediate floating point
